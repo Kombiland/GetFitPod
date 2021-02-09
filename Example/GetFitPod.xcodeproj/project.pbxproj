@@ -28,12 +28,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		089235F035589480CE970A5E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		197F5092A0ED9AED11E16C41 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		089235F035589480CE970A5E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		197F5092A0ED9AED11E16C41 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		23C26258D6D329B59076DDED /* Pods-GetFitPod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GetFitPod_Tests.release.xcconfig"; path = "Target Support Files/Pods-GetFitPod_Tests/Pods-GetFitPod_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		2A4E7DBBB7E2B61E4BE22A67 /* Pods_GetFitPod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GetFitPod_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BD2575903A8DB5783DCE288 /* Pods-GetFitPod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GetFitPod_Tests.debug.xcconfig"; path = "Target Support Files/Pods-GetFitPod_Tests/Pods-GetFitPod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		3E5BB875FFFF9CA381416744 /* GetFitPod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = GetFitPod.podspec; path = ../GetFitPod.podspec; sourceTree = "<group>"; };
+		3E5BB875FFFF9CA381416744 /* GetFitPod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GetFitPod.podspec; path = ../GetFitPod.podspec; sourceTree = "<group>"; };
 		52F9A411D3CCB4BCB68C03D7 /* Pods_GetFitPod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GetFitPod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* GetFitPod_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetFitPod_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -156,7 +156,6 @@
 				2BD2575903A8DB5783DCE288 /* Pods-GetFitPod_Tests.debug.xcconfig */,
 				23C26258D6D329B59076DDED /* Pods-GetFitPod_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -213,10 +212,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = A6YC9J88X9;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = A6YC9J88X9;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -227,6 +228,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -478,6 +480,7 @@
 			baseConfigurationReference = 9223DF831119FC56E1B4A2B0 /* Pods-GetFitPod_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A6YC9J88X9;
 				INFOPLIST_FILE = GetFitPod/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -493,6 +496,7 @@
 			baseConfigurationReference = E4F9804E9BBBD42A99A7AFC9 /* Pods-GetFitPod_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A6YC9J88X9;
 				INFOPLIST_FILE = GetFitPod/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -507,6 +511,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2BD2575903A8DB5783DCE288 /* Pods-GetFitPod_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = A6YC9J88X9;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -529,6 +534,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 23C26258D6D329B59076DDED /* Pods-GetFitPod_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = A6YC9J88X9;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",

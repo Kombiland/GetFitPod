@@ -7,11 +7,14 @@
 //
 
 import UIKit
+import GetFitPod
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        print(MyClass.string)
+        self.view.backgroundColor = .yellow
         // Do any additional setup after loading the view, typically from a nib.
     }
 

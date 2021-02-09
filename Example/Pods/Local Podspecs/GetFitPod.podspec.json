@@ -1,0 +1,22 @@
+{
+  "name": "GetFitPod",
+  "version": "0.1.0",
+  "summary": "A short description of GetFitPod.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Thomas Johansson/GetFitPod",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Thomas Johansson": "thomas.johansson@diaverum.com"
+  },
+  "source": {
+    "git": "https://github.com/Thomas Johansson/GetFitPod.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "GetFitPod/Classes/**/*"
+}

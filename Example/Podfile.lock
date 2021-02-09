@@ -1,0 +1,16 @@
+PODS:
+  - GetFitPod (0.1.0)
+
+DEPENDENCIES:
+  - GetFitPod (from `../`)
+
+EXTERNAL SOURCES:
+  GetFitPod:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GetFitPod: 43aef7c2516666a35bb42315b9960c2343f6128a
+
+PODFILE CHECKSUM: 95e921379aa13c802aab7aa64741b49c69c82f43
+
+COCOAPODS: 1.8.4
