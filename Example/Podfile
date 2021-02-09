@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'GetFitPod_Example' do
+  pod 'GetFitPod', :path => '../'
+
+  target 'GetFitPod_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
