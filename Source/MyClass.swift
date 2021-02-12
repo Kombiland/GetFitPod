@@ -10,4 +10,5 @@ import Foundation
 
 public class MyClass {
     public static let string = "thomas säger hej"
+    public static let string2 = "hallå"
 }
